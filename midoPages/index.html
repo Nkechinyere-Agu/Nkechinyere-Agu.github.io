@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Resume - Start Bootstrap Theme</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Ontology">Ontology</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Resources">Resources</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#ProtocolGuidiance">Protocol Guidance</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#UseCase">Use Cases</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#CompQuestions">Competency Questions</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        Enabling Trust in Medical Imaging
+                    </h1>
+                    <div class="subheading mb-5">
+                        Nkechinyere N. Agu<sup>1</sup>, 
+                        Ismini Lorenzou<sup>2</sup>, 
+                        Mehdi Moradi<sup>3</sup>, 
+                        Pingkun Yan<sup>1</sup>, 
+                        James Hendler<sup>1</sup>, 
+                    </div>
+                    <div class="subheading mb-5">
+                        <a href="https://www.rpi.edu/"><sup>1</sup>Rensselaer Polytechnic Institute</a> | 
+                        <a href="https://vt.edu"><sup>2</sup>Virginia Tech, Blacksburg</a> |
+                        <a href="https://about.google"><sup>3</sup>Google, Mountain View, CA</a> |
+                    </div>
+
+                    <!-- <p class="lead mb-5"> -->
+                    <p class="message">
+                        A website to navigate resources open-sourced for the Medical Imaging and Diagnostic Ontology. Use the side navigation panel to explore different sections of the website.
+                    </p>
+
+                    <hr />
+
+<article class="mb-5" id="abstract">
+<content>
+  
+  
+<h2>Abstract</h2>
+    <p>
+        Chest X-Ray (CXR) imaging is the most common form of medical imaging  used in clinical processes. Typical CXR interpretation involves several stages of reasoning and careful analysis from the radiologist before reaching a final assessment. Most deep learning frameworks utilize only the imaging data in its entirety to reach a clinical decision, ignoring important anatomical information and existing domain knowledge. In this work, we introduce an explainable AI reasoning system that integrates anatomical visual information, patient history information and external domain knowledge while making decisions. In particular, we propose the use of semantic web technologies, such as ontologies and knowledge graphs, to bridge the gap in existing deep learning systems, enable domain-guided reasoning capabilities and enhance model trustworthiness. We conduct in-depth evaluation of our reasoning model. We demonstrate that our proposed approach results in correctly flagging approximately 20\% of errors made by our state of the art image-based deep neural network disease classifier.
+    </p>
+ </content>
+ 
+ <hr />
+ <article class="mb-5" id="resources">
+<content>
+<h2>List of Resources </h2>
+<ul>
+ <table style="width:100%">
+    <tr>
+    <th>Resources</th>
+    <th>Links</th> 
+  </tr>
+   <tr>
+    <td>Protocol Guidance on Usage of Ontology</td>
+    <td><a href="#Protocol">Protocol</a> </td> 
+  </tr>
+  <tr>
+    <td>Ontology</td>
+    <td><a href="#Ontology">Explanation Ontology</a> </td> 
+  </tr>
+  <tr>
+    <td>Use Case</td>
+    <td><a href="#UseCase">Modeling</a> </td> 
+  </tr>
+    <!--<tr>
+    <td> </td>
+    <td> (b) <a href="./application.html">Faceted Browser</a> </td> 
+  </tr>-->
+    <!-- <tr>
+    <td>Clincal Example</td>
+    <td><a href="clinicalexample">Example of a Contrastive Explanation</a> </td> 
+  </tr> -->
+   <tr>
+    <td>Competency Questions </td>
+    <td><a href="#CompQuestions">SPARQL Queries</a> </td> 
+  </tr>
+   <!-- <tr>
+    <td>Tools Used </td>
+    <td><a href="index#toolsused">References to tools used</a> </td> 
+  </tr> -->
+</table>
+  
+ </ul>
+ </content>
+ 
+ <hr />
+ 
+ <article class="mb-5" id="toolsused">
+<content>
+  
+  
+<h2>Tools Used during Development</h2>
+  <ul>
+  <li>Ontology Editor: <a href="https://protege.stanford.edu/products.php#desktop-protege">Protege 5.5.0</a></li>
+  <li>Conceptual Diagram created using <a href="https://www.omnigroup.com/omnigraffle/">Omnigraffle</a></li>
+  <li>Ontology documentation tool, <a href="https://github.com/dgarijo/Widoco">Widoco</a></li>
+  <li>RDF Visualization generated with <a href="http://jimmccusker.github.io/rdfviewer/">RDFViewer</a></li>
+  </ul>
+  </content>
+                    <div class="social-icons">
+                        <a class="social-icon" href="https://github.com/Nkechinyere-Agu/MIDO"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            
+            <!-- Ontology-->
+            <section class="resume-section" id="Ontology">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Medical Imaging and Diagnostic Ontology</h2>
+    <p class="message">
+      Ontology has been cleared for release and is made available as an open-source resource under the 
+      <a href="https://www.apache.org/licenses/LICENSE-2.0">
+          Apache 2.0 license
+        </a>
+    </p>
+    <p>
+      We have designed an explanation ontology that captures the aspects of explanations related to their generation from a system's perspective while accounting for factors from an end-user's perspective. Through our modeling of the components involved in the process of explanation generation, we provide a means for system designers to translate their user requirements gathered from user studies to explanations that can be generated by their systems. We depict how our ontology schema can support the modeling of different literature-derived explanation types that help address the diverse needs of user-centric explainability.
+    </p>
+  
+  
+ <img src="assets/img/Ontology2.png" style="width:100%; height:100%" />  
+ <caption>
+     Fig. 1: A conceptual overview of our 
+     <strong>Medical Imaging and Diagnostic Ontology</strong> 
+     highlighting the concepts needed to model any Medical Imaging Task for a given patient  
+  <h3 id="ontologylinks">Ontology Links</h3>
+  <ul>
+  <!-- <li>Ontology documentation generated using the <a href="https://github.com/dgarijo/Widoco">Widoco</a> tool can be browsed at: <a href="https://tetherless-world.github.io/explanation-ontology/WidocoDocumentation/index-en.html">https://tetherless-world.github.io/explanation-ontology/WidocoDocumentation/index-en.html</a></li> -->
+  <li>Ontology can be accessed from <a href="https://bioportal.bioontology.org/ontologies/MIDO">MIDO Ontology</a></li>
+  </ul>
+  
+  <article class="mb-5" id="ontologymetadata">
+  <content>
+    <h3>Ontology Metadata</h3>
+    <p>Metadata that would be useful to navigate our 
+        <a href="#Ontology">resources</a>,
+         i.e., ontology, modeling snippets and SPARQL queries. The content below can also be viewed by inspecting our explanation ontology in an ontology editor, like, 
+         <a href="https://protege.stanford.edu/products.php#desktop-protege">
+             Protege 5.5.0
+            </a>.
+  <h4 id="ontologiesreused">Ontologies Reused</h4>
+  <ul>
+    <li>
+      <a href="http://purl.obolibrary.org/obo/bfo.owl/">
+        Basic Formal Ontology (BFO)
+        </a>
+    </li>
+    <li>
+        <a href="http://purl.obolibrary.org/obo/doid">
+            Human Disease Ontology (DOID)
+          </a>
+      </li>
+      <li>
+        <a href="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#">
+            National Cancer Institute Thesaurus (NCIT)
+          </a>
+      </li>
+      <li>
+        <a href="http://purl.obolibrary.org/obo/OGMS_0000031">
+            Ontology of General Medicine (OGMS)
+          </a>
+      </li>
+      <li>
+        <a href="http://radlex.org/RID/RadLex.owl">
+            Radiology Lexicon (RadLex)
+          </a>
+      </li>
+      <li>
+        <a href="http://purl.obolibrary.org/obo/symp.owl/">
+            Symptom Ontology (SYMP)
+          </a>
+      </li>
+    </ul>
+            </section>
+
+            <!-- Resources-->
+            <section class="resume-section" id="Resources">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Resources</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Senior Web Developer</h3>
+                            <div class="subheading mb-3">Intelitec Solutions</div>
+                            <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">March 2013 - Present</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Web Developer</h3>
+                            <div class="subheading mb-3">Intelitec Solutions</div>
+                            <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">December 2011 - March 2013</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Junior Web Designer</h3>
+                            <div class="subheading mb-3">Shout! Media Productions</div>
+                            <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">July 2010 - December 2011</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Web Design Intern</h3>
+                            <div class="subheading mb-3">Shout! Media Productions</div>
+                            <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">September 2008 - June 2010</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- ProtocolGuidiance-->
+            <section class="resume-section" id="ProtocolGuidiance">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">ProtocolGuidiance</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">University of Colorado Boulder</h3>
+                            <div class="subheading mb-3">Bachelor of Science</div>
+                            <div>Computer Science - Web Development Track</div>
+                            <p>GPA: 3.23</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">August 2006 - May 2010</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">James Buchanan High School</h3>
+                            <div class="subheading mb-3">Technology Magnet Program</div>
+                            <p>GPA: 3.56</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">August 2002 - May 2006</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+
+            <hr class="m-0" />
+            <!-- UseCase-->
+            <section class="resume-section" id="UseCase">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">UseCase</h2>
+                    <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
+                    <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- CompQuestions-->
+            <section class="resume-section" id="CompQuestions">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">CompQuestions & Certifications</h2>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            Google Analytics Certified Developer
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            Mobile Web Specialist - Google Certification
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            1
+                            <sup>st</sup>
+                            Place - University of Colorado Boulder - Emerging Tech Competition 2009
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            1
+                            <sup>st</sup>
+                            Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            2
+                            <sup>nd</sup>
+                            Place - University of Colorado Boulder - Emerging Tech Competition 2008
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            1
+                            <sup>st</sup>
+                            Place - James Buchanan High School - Hackathon 2006
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            3
+                            <sup>rd</sup>
+                            Place - James Buchanan High School - Hackathon 2005
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
